@@ -2,6 +2,13 @@
 
 Display boolean values with the help of icons
 
+## Installation
+
+AngularJS VisualBoolean Filter is available on **bower**:
+```
+bower install --save js-angular-visualboolean-filter
+```
+
 ## Usage
 
 ####Apply the filter to a value and see the magic happen!
