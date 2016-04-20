@@ -1,0 +1,25 @@
+{
+  "name": "angularVisualBooleanFilter",
+  "homepage": "https://github.com/JanSchuermannPH/visualBooleanFilter",
+  "authors": [
+    "JanSchuermannPH <jsbaguio.ph@gmail.com>"
+  ],
+  "description": "Display Boolean Values with the help of icons",
+  "main": "visualBooleanFilter.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.*",
+    "angular-sanitize": "^1.*",
+    "font-awesome": "^4.*"
+  }
+}
