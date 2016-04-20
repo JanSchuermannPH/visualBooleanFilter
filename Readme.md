@@ -5,7 +5,7 @@ Display boolean values with the help of icons
 ## Usage
 
 ####Apply the filter to a value and see the magic happen!
-```
+```html
 <span ng-bind-html="myValue | visualBoolean"></span>
 Result:
 <span><i class="fa fa-lg fa-check"></i></span>
@@ -16,7 +16,7 @@ app.config(function(visualBooleanFilterConfigProvider){
     visualBooleanFilterConfigProvider.changeIconSize(2);
 })
 ```
-```
+```html
 <span ng-bind-html="myValue | visualBoolean"></span>
 Result:
 <span><i class="fa fa-2x fa-check"></i></span>
@@ -25,26 +25,26 @@ Result:
 
 
 ####Add additional classes to the icon:
-```
+```javascript
 app.config(function(visualBooleanFilterConfigProvider){
     visualBooleanFilterConfigProvider.addIconClass('yourClassName');
 })
 ```
 ####Add multiple classes at once:
-```
+```javascript
 app.config(function(visualBooleanFilterConfigProvider){
     visualBooleanFilterConfigProvider.addIconClass(['class1','class2']);
 })
 ```
 
 ####Remove classes from the icon:
-```
+```javascript
 app.config(function(visualBooleanFilterConfigProvider){
     visualBooleanFilterConfigProvider.removeIconClass('yourClassName');
 })
 ```
 ####Remove multiple classes at once:
-```
+```javascript
 app.config(function(visualBooleanFilterConfigProvider){
     visualBooleanFilterConfigProvider.removeIconClass(['class1','class2']);
 })
